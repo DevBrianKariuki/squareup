@@ -8,12 +8,14 @@ export default {
     extend: {
       colors: {
         primary: "#9EFF00",
-        background: "#1A1A1A",
+        background: "#191919",
+        lightgray: "#1E1E1E",
         active: "#262626",
         white: "#FFFFFF",
       },
       fontFamily :{
-        inter : ['inter', 'sans-serif']
+        inter : ['inter', 'sans-serif'],
+        barlow : ['barlow', 'sans-serif'],
       }
     },
     screens:{
