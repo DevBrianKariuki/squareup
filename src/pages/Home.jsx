@@ -1,8 +1,14 @@
 import React from 'react'
+import { Hero } from '../components/Home'
+import styles from '../styles'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='bg-background overflow-hidden w-full h-[100vh] overflow-hidden'>
+      <div className='sm:mx-16'>
+        <Hero />
+      </div>
+    </div>
   )
 }
 

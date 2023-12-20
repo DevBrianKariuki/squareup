@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 const Layout = () => {
   return (
-    <div>
-      <div className='font-inter'>Navbar</div>
+    <div className='flex w-full flex-col'>
+      <Navbar />
       <Outlet />
     </div>
   )

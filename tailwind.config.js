@@ -9,13 +9,14 @@ export default {
       colors: {
         primary: "#9EFF00",
         background: "#191919",
+        graytext: '#98989A',
         lightgray: "#1E1E1E",
         active: "#262626",
         white: "#FFFFFF",
       },
       fontFamily :{
         inter : ['inter', 'sans-serif'],
-        barlow : ['barlow', 'sans-serif'],
+        barlow : ['Barlow', 'sans-serif'],
       }
     },
     screens:{
