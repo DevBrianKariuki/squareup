@@ -1,9 +1,9 @@
 import React from 'react'
-import { HeroBg } from '../../assets'
+import { adobe, amazon, slack, spotify, zapier, zoom } from '../../assets/Home'
 
-const Hero = () => {
+const Clients = () => {
   return (
-    <div id='Hero' className={`border-b-[1px] bg-cover bg-center border-r-[1px] px-6 border-l-[1px] border-active w-full`}>
+    <div id='clients' className={`border-b-[1px] bg-cover bg-center border-r-[1px] px-6 border-l-[1px] border-active w-full`}>
         <div className='flex gap-8 sm:py-24 py-20 items-center flex-col'>
             <h1 className='text-white font-barlow sm:text-6xl text-4xl text-center font-semibold leading-[60px]'>A Digital Product Studio<br className='hidden sm:flex' /> that will Work</h1>
             <div className='bg-active sm:hidden rounded-md my-4 p-4 border-2 border-active'>
@@ -26,4 +26,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Clients;
