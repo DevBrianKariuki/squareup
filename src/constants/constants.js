@@ -1,4 +1,6 @@
-import { design, engineering, projectManagement, clientapproach, resultdriven, expertise, collaborative } from "../assets/Home"
+import { design, engineering, projectManagement, clientapproach, 
+    resultdriven, expertise, collaborative, JohnSmith, 
+} from "../assets/Home"
 
 export const navLinks = [
     {
@@ -79,4 +81,31 @@ export const WhyChooseUsReasons = [
         title: 'Results-Driven Solutions' ,
         desc:  `We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive.`
     },
+]
+
+export const ClientTestimonials = [
+    {
+        id: 1,
+        image: JohnSmith,
+        name: 'John Smith',
+        designation: 'CEO of Chic Boutique',
+        heading: 'SquareUp has been Instrumental in Transforming our Online Presence. ',
+        content: ` Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier. `
+    },
+    {
+        id: 2,
+        image: SarahJohnson,
+        name: 'Sarah Johnson',
+        designation: 'Founder of HungryBites.',
+        heading: 'Working with SquareUp was a breeze.',
+        content: `They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience. SquareUp is a trusted partner we highly recommend.`
+    },
+    {
+        id: 3,
+        image: MarkThompson,
+        name: 'Mark Thompson',
+        designation: 'CEO of EventMasters',
+        heading: 'SquareUp developed a comprehensive booking and reservation system for our event management company',
+        content: `Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.`
+    }
 ]

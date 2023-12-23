@@ -28,6 +28,11 @@
     background-repeat: no-repeat;
 }
 
+#testimonials{
+    background-image: url('./assets/Home/Testimonials.png');
+    background-repeat: no-repeat;
+}
+
 #service-icon{
     background: linear-gradient(#353535, transparent );
 }
