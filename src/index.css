@@ -14,6 +14,25 @@
     background-image: url('../src/assets/HeroBG.svg');
 }
 
+#clients-trusted{
+    top: -25px;
+}
+
+#services{
+    background-image: url('./assets/Home/Servicesbg.png');
+    background-repeat: no-repeat;
+}
+
+#whychooseus{
+    background-image: url('./assets/Home/WhyChooseUs.png');
+    background-repeat: no-repeat;
+}
+
+#service-icon{
+    background: linear-gradient(#353535, transparent );
+}
+
+
 ::-webkit-scrollbar{
     width: 8px;
 }

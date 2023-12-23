@@ -6,12 +6,12 @@ import { Logo, Menu } from '../assets'
 const Navbar = () => {
   const [active, setActive] = useState('home')
   const [toggle, setToggle] = useState(false)
-  console.log(toggle)
+
 
   return (
     <nav className='w-full bg-background border-b-[1px] border-active px-6 sm:px-16 items-center justify-between flex py-8'>
       <div className='w-full'>
-        <Link to={'/home'}>
+        <Link to={'/'}>
           <img src={Logo}  />
         </Link>
       </div>
