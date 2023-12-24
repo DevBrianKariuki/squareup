@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero,Clients, Services, WhyChooseUs, Testimonials } from '../components/Home'
+import { Hero,Clients, Services, WhyChooseUs, Testimonials, FAQs, CallToAction } from '../components/Home'
 import styles from '../styles'
 
 const Home = () => {
@@ -13,6 +13,8 @@ const Home = () => {
           <Services />
           <WhyChooseUs />
           <Testimonials />
+          <FAQs />
+          <CallToAction />
         </div>
     </div>
   )

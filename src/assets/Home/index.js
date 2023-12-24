@@ -12,6 +12,12 @@ import expertise from './expertise.svg'
 import resultdriven from './resultdriven.svg'
 import clientapproach from './clientapproach.svg'
 import collaborative from './collaborative.svg'
+import EmilyTurner from './Emily Turner.png'
+import JohnSmith from './John Smith.png'
+import MarkThompson from './Mark Thompson.png'
+import MichaelAnderson from './Michael Anderson.png'
+import SarahJohnson from './Sarah Johnson.png'
+import LauraAdams from './Laura Adams.png'
 
 export {
     adobe,
@@ -27,5 +33,11 @@ export {
     expertise,
     resultdriven,
     clientapproach,
-    collaborative
+    collaborative,
+    EmilyTurner,
+    JohnSmith,
+    MarkThompson,
+    SarahJohnson,
+    MichaelAnderson,
+    LauraAdams
 }

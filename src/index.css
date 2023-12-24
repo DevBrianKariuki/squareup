@@ -33,6 +33,16 @@
     background-repeat: no-repeat;
 }
 
+#faqs{
+    background-image: url('./assets/Home/Faqs.png');
+    background-repeat: no-repeat;
+}
+
+#calltoaction{
+    background-image: url('./assets/Home/CallToAction.png');
+    background-repeat: no-repeat;
+}
+
 #service-icon{
     background: linear-gradient(#353535, transparent );
 }

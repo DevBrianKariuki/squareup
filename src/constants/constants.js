@@ -1,5 +1,6 @@
 import { design, engineering, projectManagement, clientapproach, 
-    resultdriven, expertise, collaborative, JohnSmith, 
+    resultdriven, expertise, collaborative, JohnSmith, SarahJohnson, MarkThompson,
+    LauraAdams, EmilyTurner, MichaelAnderson
 } from "../assets/Home"
 
 export const navLinks = [
@@ -107,5 +108,72 @@ export const ClientTestimonials = [
         designation: 'CEO of EventMasters',
         heading: 'SquareUp developed a comprehensive booking and reservation system for our event management company',
         content: `Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients' event experiences.`
-    }
+    },
+    {
+        id: 4,
+        image: LauraAdams,
+        name: 'Laura Adams',
+        designation: 'COO of ProTech Solutions.',
+        heading: 'ProTech Solutions turned to SquareUp to automate our workflow',
+        content: `They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUp's expertise and professionalism have made them a trusted technology partner.`
+    },
+    {
+        id: 5,
+        image: EmilyTurner,
+        name: 'Emily Turner',
+        designation: 'CEO of FitLife Tracker',
+        heading: 'FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans.',
+        content: `SquareUp's team developed an intuitive and feature-rich app that has helped our users stay motivated and achieve their fitness goals. We highly recommend SquareUp for any health and fitness app development needs.`
+    },
+    {
+        id: 6,
+        image: MichaelAnderson,
+        name: 'Michael Anderson',
+        designation: 'Founder of Dream Homes Realty.',
+        heading: 'SquareUp designed and developed a captivating web portal for showcasing our real estate listings.',
+        content: `The platform is visually appealing and easy to navigate, allowing potential buyers to find their dream homes effortlessly. SquareUp's expertise in the real estate industry is unmatched.`
+    },
+]
+
+export const FAQS = [
+    {
+        no: '01',
+        title: 'What services does SquareUp provide?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '02',
+        title: 'How can SquareUp help my business?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '03',
+        title: 'What industries does SquareUp work with?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '04',
+        title: 'How long does it take to complete a project with SquareUp?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '05',
+        title: 'Do you offer ongoing support and maintenance after the project is completed?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '06',
+        title: 'Can you work with existing design or development frameworks?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '07',
+        title: 'How involved will I be in the project development process?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+    {
+        no: '08',
+        title: 'Can you help with website or app maintenance and updates?',
+        desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
 ]
