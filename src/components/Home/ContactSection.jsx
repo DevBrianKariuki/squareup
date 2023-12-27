@@ -38,7 +38,18 @@ const ContactSection = () => {
             <div className='flex flex-col border-[1px] border-[#3D3D3D] w-full bg-active gap-3 rounded-lg px-5 py-3'>
                 <label className='font-barlow text-lg w-full text-md text-white'>Your Budget</label>
                 <label className='font-barlow text-sm w-full text-md text-white'>Slide to indicate your budget range</label>
-                <input type='text' placeholder='Type here' className='border-b-[1px] text-md px-0 bg-active border-none font-barlow text-primary focus:outline-none border-[#fff]' />
+                    <div>
+                    <label
+                        for="customRange2"
+                        class="mb-2 inline-block text-neutral-700 dark:text-neutral-200"
+                        >Budget</label>
+                    <input
+                        type="range"
+                        class="transparent h-[4px] w-full cursor-pointer appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600"
+                        min="100"
+                        max="1000"
+                        id="customRange2" />
+                    </div>
             </div>
             <div className='flex flex-col border-[1px] border-[#3D3D3D] w-full bg-active gap-3 rounded-lg px-5 py-3'>
                 <label className='font-barlow text-lg w-full text-md text-white'>Your Message</label>
