@@ -5,6 +5,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import Testimonials from "./Testimonials";
 import FAQs from "./FAQs";
 import CallToAction from "./CallToAction";
+import ContactSection from "./ContactSection";
 
 export {
     Hero,
@@ -13,5 +14,6 @@ export {
     WhyChooseUs,
     Testimonials,
     FAQs,
-    CallToAction
+    CallToAction,
+    ContactSection
 }

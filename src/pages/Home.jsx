@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero,Clients, Services, WhyChooseUs, Testimonials, FAQs, CallToAction } from '../components/Home'
+import { Hero,Clients, Services, WhyChooseUs, Testimonials, FAQs, CallToAction, ContactSection } from '../components/Home'
 import styles from '../styles'
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
           <Testimonials />
           <FAQs />
           <CallToAction />
+          <ContactSection />
         </div>
     </div>
   )
