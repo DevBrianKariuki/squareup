@@ -31,11 +31,7 @@ const FAQCard = ({number, title, description}) => {
         <span className={`${accordionOpen ? 'text-primary' : 'text-white' }  font-barlow font-medium text-md sm:text-lg text-left`}>{title}</span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
         <svg
-          className="fill-primary shrink-0 ml-8"
-          width="16"
-          height="16"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+          className="fill-primary shrink-0 ml-8" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
           <rect
             y="7"
             width="16"

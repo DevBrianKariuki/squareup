@@ -10,6 +10,11 @@
     src: url('./fonts/Barlow-Regular.ttf');
 }
 
+#mobile-menu{
+    top: 40px;
+    right: 0px;
+}
+
 #Hero{
     background-image: url('../src/assets/HeroBG.svg');
 }
