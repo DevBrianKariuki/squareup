@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FAQS } from '../../constants/constants'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const FAQs = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  }, [])
     
   return (
-    <div className={`border-b-[1px] justify-center flex flex-col border-r-[1px] relative md:mx-0 border-l-[1px] border-active w-full`}>
+    <div data-aos='fade-up' className={`border-b-[1px] justify-center flex flex-col border-r-[1px] relative md:mx-0 border-l-[1px] border-active w-full`}>
         <div id='faqs' className='flex bg-cover w-full py-6 px-5 flex-col justify-center items-center'>
             <h1 className='font-barlow text-white font-semibold items-center hover:text-primary text-center py-4 text-3xl'>Frequently Asked Questions</h1>
             <p className='text-neutral-300 font-barlow  text-center md:w-[80%] pb-3 text-lg'>Still you have any questions? Contact our Team via hello@squareup.com</p>
@@ -22,7 +27,7 @@ const FAQCard = ({number, title, description}) => {
 
     const [accordionOpen, setAccordionOpen] = useState(false);
     return(
-    <div className="py-6 px-4 flex border-[1px] border-active justify-between flex-col w-full">
+    <div data-aos='zoom-in' className="py-6 px-4 flex border-[1px] border-active justify-between flex-col w-full">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between h-[60px] items-center gap-6 justify-between w-full"

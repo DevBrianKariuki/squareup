@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { ClientTestimonials } from '../../constants/constants'
 import { Link } from 'react-router-dom'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Testimonials = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+      }, [])
+
   return (
-    <div className={`border-b-[1px] justify-center flex flex-col border-r-[1px] relative md:mx-0 border-l-[1px] border-active w-full`}>
+    <div data-aos='fade-up' className={`border-b-[1px] justify-center flex flex-col border-r-[1px] relative md:mx-0 border-l-[1px] border-active w-full`}>
         <div id='testimonials' className='flex bg-cover w-full py-6 px-5 flex-col justify-center items-center'>
             <h1 className='font-barlow text-white font-semibold items-center hover:text-primary text-center py-4 text-3xl'>What our Clients say About us</h1>
             <p className='text-neutral-300 font-barlow  text-center md:w-[80%] pb-3 text-lg'>At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. Here's what some of our satisfied clients have to say about their experience working with us</p>
@@ -21,7 +28,7 @@ const Testimonials = () => {
 }
 
 const TestimonialCard = ({image, heading, content, photo, name, designation}) => (
-    <div className='w-full md:h-[320px] border-[0.8px] border-active flex flex-col px-6 md:px-8 py-16 justify-center'>
+    <div data-aos='flip-left' className='w-full md:h-[320px] border-[0.8px] border-active flex flex-col px-6 md:px-8 py-16 justify-center'>
         <div>
             <p className='text-[#D8FF99] font-medium font-barlow text-lg py-3'>{heading}</p>
         </div>
