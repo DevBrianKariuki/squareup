@@ -40,10 +40,10 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className={`${toggle ? 'bg-primary' : 'bg-none'} flex relative p-2 rounded-md sm:hidden space-x-4`}>
+      <div className={`${toggle ? 'bg-primary' : 'bg-none'} flex relative p-2  rounded-md sm:hidden space-x-4`}>
         <img onClick={() => setToggle(!toggle)} src={Menu} className={``} />
 
-          <div id='mobile-menu' className={`${toggle ? 'flex' : 'hidden'} flex-col absolute w-[250px] bg-background rounded-lg border-t-2 border-b-2 border-primary py-8`}>
+          <div id='mobile-menu' className={`${toggle ? 'flex' : 'hidden'} flex-col z-50 absolute w-[250px] bg-background rounded-lg border-t-2 border-b-2 border-primary py-8`}>
             <ul className='list-none w-full w-full flex flex-col gap-2 sm:hidden'>
               {navLinks.map((link) =>(
                 <NavLink to={link.path}>

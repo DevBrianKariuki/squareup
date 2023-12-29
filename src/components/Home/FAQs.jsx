@@ -9,10 +9,10 @@ const FAQs = () => {
   }, [])
     
   return (
-    <div data-aos='fade-up' className={`border-b-[1px] justify-center flex flex-col border-r-[1px] relative md:mx-0 border-l-[1px] border-active w-full`}>
+    <div  className={`border-b-[1px] justify-center flex flex-col border-r-[1px] relative md:mx-0 border-l-[1px] border-active w-full`}>
         <div id='faqs' className='flex bg-cover w-full py-6 px-5 flex-col justify-center items-center'>
-            <h1 className='font-barlow text-white font-semibold items-center hover:text-primary text-center py-4 text-3xl'>Frequently Asked Questions</h1>
-            <p className='text-neutral-300 font-barlow  text-center md:w-[80%] pb-3 text-lg'>Still you have any questions? Contact our Team via hello@squareup.com</p>
+            <h1 data-aos='fade-up' className='font-barlow text-white font-semibold items-center hover:text-primary text-center py-4 text-3xl'>Frequently Asked Questions</h1>
+            <p data-aos='fade-left' className='text-neutral-300 font-barlow  text-center md:w-[80%] pb-3 text-lg'>Still you have any questions? Contact our Team via hello@squareup.com</p>
         </div>
         <div className='grid w-full grid-cols-1 md:grid-cols-2 flex-col items-start'>
             {FAQS.map((faq)=>(
@@ -27,12 +27,12 @@ const FAQCard = ({number, title, description}) => {
 
     const [accordionOpen, setAccordionOpen] = useState(false);
     return(
-    <div data-aos='zoom-in' className="py-6 px-4 flex border-[1px] border-active justify-between flex-col w-full">
+    <div data-aos='zoom-in'  className="py-6 px-4 flex border-[1px] border-active justify-between flex-col w-full">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between h-[60px] items-center gap-6 justify-between w-full"
       >
-        <div id="service-icon" className={`${accordionOpen ? 'text-primary' : 'text-white' } p-2 font-barlow font-semibold text-xl rounded-lg`}>{number}</div>
+        <div  id="service-icon" className={`${accordionOpen ? 'text-primary' : 'text-white' } p-2 font-barlow font-semibold text-xl rounded-lg`}>{number}</div>
         <span className={`${accordionOpen ? 'text-primary' : 'text-white' }  font-barlow font-medium text-md sm:text-lg text-left`}>{title}</span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
         <svg
@@ -64,7 +64,7 @@ const FAQCard = ({number, title, description}) => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        <div className={`${accordionOpen ? 'md:h-[70px]' : '' } overflow-hidden  text-neutral-300 font-barlow text-md py-2`}>{description}</div>
+        <div  className={`${accordionOpen ? 'md:h-[70px]' : '' } overflow-hidden  text-neutral-300 font-barlow text-md py-2`}>{description}</div>
       </div>
     </div>
     )

@@ -3,6 +3,16 @@ import { design, engineering, projectManagement, clientapproach,
     LauraAdams, EmilyTurner, MichaelAnderson
 } from "../assets/Home"
 
+import { user_research, information_architecture, design_visual, interactive_prototyping,
+    intuitive, custom_iconography, typography_color, responsive_design, logo_design,
+    brand_strategy, brand_guidelines, marketing_collateral, frontend, backend, content_management,ecommerce,
+    nativeios, cross_platform, app_prototyping, app_testing, enterprise, custom_webapp, integration, legacy_system,
+    requirements, project_roadmap, resource_allocation, risk_assesment, iterative, scrum, regular_progress, continous_improvement,
+    test_planning, functional, performance, bug_tracking
+ } from "../assets/Services"
+
+
+
 export const navLinks = [
     {
         id: 'home',
@@ -175,5 +185,239 @@ export const FAQS = [
         no: '08',
         title: 'Can you help with website or app maintenance and updates?',
         desc: 'SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.'
+    },
+]
+
+export const ServicesOffered = [
+    {
+        id: 1,
+        title: 'Design',
+        description: `At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences.`,
+        descText: 'Our design services include:',
+        services:[
+            {
+                id: 1,
+                serviceTitle: 'User Experience (UX) Design',
+                individualServices: [
+                    {
+                        icon: user_research,
+                        title: 'User Research and Persona Development'
+                    },
+                    {
+                        icon: information_architecture,
+                        title: 'Information Architecture and Wireframing'
+                    },
+                    {
+                        icon: interactive_prototyping,
+                        title: 'Interactive Prototyping and User Testing'
+                    },
+                    {
+                        icon: design_visual,
+                        title: 'UI Design and Visual Branding'
+                    },
+                ]
+
+            },
+            {
+                id: 2,
+                serviceTitle: 'User Interface (UI) Design',
+                individualServices: [
+                    {
+                        icon: intuitive,
+                        title: 'Intuitive and Visually Appealing Interface Design'
+                    },
+                    {
+                        icon: custom_iconography,
+                        title: 'Custom Iconography and Illustration'
+                    },
+                    {
+                        icon: typography_color,
+                        title: 'Typography and Color Palette Selection'
+                    },
+                    {
+                        icon: responsive_design,
+                        title: 'Responsive Design for Various Devices'
+                    },
+                ]
+
+            },
+            {
+                id: 3,
+                serviceTitle: 'Branding and Identity',
+                individualServices: [
+                    {
+                        icon: logo_design,
+                        title: 'Logo Design and Visual Identity Development'
+                    },
+                    {
+                        icon: brand_strategy,
+                        title: 'Brand Strategy and Positioning'
+                    },
+                    {
+                        icon: brand_guidelines,
+                        title: 'Brand Guidelines and Style Guides'
+                    },
+                    {
+                        icon: marketing_collateral,
+                        title: 'Marketing Collateral Design (Brochures, Business Cards, etc.)'
+                    },
+                ]
+
+            },
+        ]
+    },
+    {
+        id: 2,
+        title: 'Engineering',
+        description: `Our engineering team combines technical expertise with a passion for innovation to build robust and scalable digital solutions. We leverage the latest technologies and best practices to deliver high-performance applications tailored to your specific needs.`,
+        descText: 'Our engineering services include:',
+        services:[
+            {
+                id: 1,
+                serviceTitle: 'Web Development',
+                individualServices: [
+                    {
+                        icon: frontend,
+                        title: 'Front-End Development (HTML, CSS, JavaScript)'
+                    },
+                    {
+                        icon: backend,
+                        title: 'Back-End Development (PHP, Python, Ruby)'
+                    },
+                    {
+                        icon: content_management,
+                        title: 'Content Management System (CMS) Development (WordPress, Drupal)'
+                    },
+                    {
+                        icon: ecommerce,
+                        title: 'E-Commerce Platform Development (Magento, Shopify)'
+                    },
+                ]
+
+            },
+            {
+                id: 2,
+                serviceTitle: 'Mobile App Development',
+                individualServices: [
+                    {
+                        icon: nativeios,
+                        title: 'Native iOS and Android App Development'
+                    },
+                    {
+                        icon: cross_platform,
+                        title: 'Cross-Platform App Development (React Native, Flutter)'
+                    },
+                    {
+                        icon: app_prototyping,
+                        title: 'App Prototyping and UI/UX Design Integration'
+                    },
+                    {
+                        icon: app_testing,
+                        title: 'App Testing, Deployment, and Maintenance'
+                    },
+                ]
+
+            },
+            {
+                id: 3,
+                serviceTitle: 'Custom Software Development',
+                individualServices: [
+                    {
+                        icon: enterprise,
+                        title: 'Enterprise Software Development'
+                    },
+                    {
+                        icon: custom_webapp,
+                        title: 'Custom Web Application Development'
+                    },
+                    {
+                        icon: integration,
+                        title: 'Integration with Third-Party APIs and Systems'
+                    },
+                    {
+                        icon: legacy_system,
+                        title: 'Legacy System Modernization and Migration'
+                    },
+                ]
+
+            },
+        ]
+    },
+    {
+        id: 3,
+        title: 'Project Management',
+        description: `Our experienced project management team ensures that your projects are delivered on time, within budget, and according to your specifications. We follow industry-standard methodologies and employ effective communication and collaboration tools to keep you informed throughout the development process.`,
+        descText: 'Our project management services include:',
+        services:[
+            {
+                id: 1,
+                serviceTitle: 'Project Planning and Scoping',
+                individualServices: [
+                    {
+                        icon: requirements,
+                        title: 'Requirements Gathering and Analysis'
+                    },
+                    {
+                        icon: project_roadmap,
+                        title: 'Project Roadmap and Timeline Development'
+                    },
+                    {
+                        icon: resource_allocation,
+                        title: 'Resource Allocation and Task Assignment'
+                    },
+                    {
+                        icon: risk_assesment,
+                        title: 'Risk Assessment and Mitigation Strategies'
+                    },
+                ]
+
+            },
+            {
+                id: 2,
+                serviceTitle: 'Agile Development',
+                individualServices: [
+                    {
+                        icon: iterative,
+                        title: 'Iterative Development and Sprints'
+                    },
+                    {
+                        icon: scrum,
+                        title: 'Scrum or Kanban Methodology Implementation'
+                    },
+                    {
+                        icon: regular_progress,
+                        title: 'Regular Progress Updates and Demos'
+                    },
+                    {
+                        icon: continous_improvement,
+                        title: 'Continuous Improvement and Feedback Incorporation'
+                    },
+                ]
+
+            },
+            {
+                id: 3,
+                serviceTitle: 'Quality Assurance and Testing',
+                individualServices: [
+                    {
+                        icon: test_planning,
+                        title: 'Test Planning and Execution'
+                    },
+                    {
+                        icon: functional,
+                        title: 'Functional and Usability Testing'
+                    },
+                    {
+                        icon: performance,
+                        title: 'Performance and Security Testing'
+                    },
+                    {
+                        icon: bug_tracking,
+                        title: 'Bug Tracking and Issue Resolution'
+                    },
+                ]
+
+            },
+        ]
     },
 ]
