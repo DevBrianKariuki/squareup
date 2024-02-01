@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Process = () => {
-  return (
-    <div>Process</div>
-  )
-}
+  return <div>Page Coming Soon 😊</div>;
+};
 
-export default Process
+export default Process;
